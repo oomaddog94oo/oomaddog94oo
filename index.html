@@ -1,9 +1,124 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Austin Ramer</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <h1 class="header">My HTML & CSS Cheatsheet</h1>
+        <title>My HTML&CSS Cheatsheet</title>
+        <link href="../Cheat Sheet/resources/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <form id="homebutton" action="../Cheat Sheet/index.html">
+                <button style="background-color: black; color: skyblue;">HTML Notes Page</button>
+                </form>
+                <form id="cssbutton" action="../Cheat Sheet/css.html">
+                    <button style="background-color: black; color: skyblue;">CSS Notes Page</button>
+                    </form>
+        </div>
+        <div>
+            <h2 class="tabletags">Table Tags</h2>
+        </div>
+        <div class="htmltable">
+            <table>
+                <tr>
+                <th class="tag">Tag</th>
+                <th class="name">Name</th>
+                <th class="description">Description</th>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                 </tr>
+                 <tr>
+                    <td>&lt;thead&gt;</td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                 </tr>
+                 <tr>
+                    <td>&lt;tbody&gt;</td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                 </tr>
+                 <td>&lt;tr&gt;</td>
+                 <td>Table Row</td>
+                 <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Table Data</td>
+                    <td>A cell containing table data.</td>
+                </tr>
+                <tr>
+                    <td>&lt;tfoot&gt;</td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            
+            </table>
+        </div>
+        <br>
+        <div>
+            <h2 class="tableatt">Table Attributes</h2>
+        </div>
+            <div class="attributestable">
+            <table>
+                <tr>
+                    <th class="attributes">Attributes</th>
+                    <th class="attname">Name</th>
+                    <th class="attdescription">Description</th>
+                </tr>
+                <tr>
+                    <td>colspan</td>
+                    <td>Column Span</td>
+                    <td>Defines how many columns a td element should span.</td>
+                </tr>
+                <tr>
+                    <td>rowspan</td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span.</td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        <div class="commontable">
+            <h2 id="commontable">Commonly used HTML tags</h2>
+            <table>
+                <tr>
+                    <th class="commontag">Tag</th>
+                    <th class="commondescription">Description</th>
+                    </tr>
+                    <tr>
+                        <td>&lt;!DOCTYPE&gt;</td>
+                        <td>first line of code on any html page, defines the file type.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>Hyper Text Markup Language.</td>
+                        </tr>
+                        <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>The head or prologue, of the HTML Documnet</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;title&gt;</td>
+                        <td>Assigns website or webpage name to the browser tab.</td></tr>
+                        <tr>
+                        <td>&lt;!--&gt;</td>
+                        <td>This is the code you type in order to make or leave a comment.</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;href&gt;</td>
+                        <td>Hyper Text Reference, used to link things such as img src or our css stylesheet into your website</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>Unordered list, used to create a list with bullets vs numbers</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;ol&gt;</td>
+                        <td>Ordered list, used to create a list with numbers vs bullets.</td>
+                    </tr>
+            </table>
+        </div>
+    </body>
 </html>
