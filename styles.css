@@ -1,0 +1,110 @@
+
+*{
+    background-color:skyblue;
+}
+.header {
+    text-align:justify;
+    font-family: cursive;
+    background-image:url('../images/logo.png');
+    background-size: 78%;
+    width: 125%;
+    padding: 125px 0px 50px 500px;
+    color:skyblue;
+   
+    
+    }
+    .tabletags{
+        text-align: center;
+        font-family:monospace;
+        letter-spacing: 2px;
+        font-weight: bold;
+       
+    }
+    .htmltable,
+    .attributestable,
+    table,
+    th,
+    td{
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        width:fit-content;
+           
+    }
+    .tag{
+        background-color:black;
+        font-weight: bold;
+        color:skyblue;
+    }
+    .name{
+        background-color:black;
+        font-weight: bold;
+        color:skyblue;
+    }
+    .description{
+        background-color:black;
+        font-weight: bold;
+        color:skyblue;
+    }
+    td{
+        background-color:rgb(175, 174, 174);
+        font-weight: bold;
+    }
+   .tableatt{
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 2px;
+   }
+   .attributes{
+    background-color: black;
+    color: skyblue;
+    font-weight: bold;
+   }
+   .attname{
+    background-color: black;
+    color: skyblue;
+    font-weight: bold;
+   }
+   .attdescription{
+    background-color: black;
+    color: skyblue;
+    font-weight: bold;
+   }
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    color: skyblue;
+  }
+ #homebutton{
+    display:inline;
+   
+ }
+ #cssbutton{
+    display:inline;
+ }
+ .commontable{
+        margin-left: auto;
+        margin-right: auto;
+        width:fit-content;
+        text-align: center;
+ }
+ .commontag{
+    background-color: black;
+    color: skyblue;
+ }
+ .commondescription{
+    background-color: black;
+    color: skyblue;
+ }
